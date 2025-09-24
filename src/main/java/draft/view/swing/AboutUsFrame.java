@@ -27,7 +27,7 @@ public class AboutUsFrame extends JFrame {
         add(scrollPane, BorderLayout.CENTER);
 
         JLabel pictureLabel = new JLabel();
-        Image image = new ImageIcon(Objects.requireNonNull(getClass().getResource("/images/creators.jpg"))).getImage();
+        Image image = new ImageIcon(Objects.requireNonNull(getClass().getResource("/images/creator.jpg"))).getImage();
         Image scaledImage = image.getScaledInstance(300, 150, Image.SCALE_SMOOTH);
         pictureLabel.setIcon(new ImageIcon(scaledImage));
         pictureLabel.setHorizontalAlignment(SwingConstants.CENTER);
